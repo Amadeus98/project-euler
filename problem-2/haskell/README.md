@@ -14,4 +14,3 @@ Computing the sum of even-valued terms in the list is done using higher order fu
 
     foldr (+) 0 [x | x <- take 50 fibs, x < 4000000, x `mod` 2 == 0] 
 
-

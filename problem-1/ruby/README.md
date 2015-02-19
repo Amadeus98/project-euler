@@ -8,7 +8,7 @@ Aan initial solution might involve iterating through each number less than 1000 
       (n*(p*(p+1))/2).floor
     end
 
-Finally, we can ouput the result using the `puts` function: 
+Finally, we can output the result using the `puts` function: 
 
     puts sumbDivisibleBy(3) + sumDivisibleBy(5) - sumDivisibleBy(15)		
 
@@ -27,7 +27,7 @@ However, the program can be made a bit more versatile with command line argument
       puts (total -= sumDivisibleBy(sum))
     end 
 
-The first argument is assigned to the global variable `$MAX` for use in `sumDivisibleBy`. Now, the solution can be optained by running: 
+The first argument is assigned to the global variable `$MAX` for use in `sumDivisibleBy`. Now, the solution can be obtained by running: 
 
     ruby problem1.rb 999 3 5 
 

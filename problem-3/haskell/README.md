@@ -7,4 +7,3 @@ Haskell provides an excellent solution to prime factorization through it's [Wiki
     factor n = let prime = head $ dropWhile ((/= 0) . mod n) [2..n]
                in (prime :) $ factor $ div n prime 
 
-
