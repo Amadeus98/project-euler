@@ -18,8 +18,11 @@ We can then use a while loop to scan each Fibonacci number to see if its value i
     
 We can make the solution more versatile by adding command line arguments to the conditional of the while loop:  
 
-    while fibonacci[n] < args[0].to_i 
-      ... 
+    def problem2(args)
+      ...
+      while fibonacci[n] < args[0].to_i 
+        ... 
+      end
     end
     
     problem2(ARGV)
