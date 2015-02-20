@@ -26,3 +26,7 @@ We can make the solution more versatile by adding command line arguments:
     
     problem3(ARGV)
     
+This allows us to find the solution by running: 
+
+    ruby problem3.rb 600851475143
+    
